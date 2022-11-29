@@ -39,6 +39,7 @@ h1 {
 .row {
 
     display: flex; /* without this div the boxes wont be next to each other and just dosent work*/
+      height: 68vh;
 }
 
 .columdatabase {
