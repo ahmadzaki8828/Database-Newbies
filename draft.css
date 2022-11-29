@@ -12,9 +12,16 @@
     font-weight: bold;
 }
 
-.fontbutton {
-    text-align: right;
-    
+a {
+    color: blue;
+}
+
+a:hover{
+    color: red;
+}
+
+a:visited {
+    color: purple;
 }
 
 h1 {
@@ -31,7 +38,30 @@ h1 {
 
 .row {
 
-    display: flex;
+    display: flex; /* without this div the boxes wont be next to each other and just dosent work*/
+}
+
+.columdatabase {
+
+    border: solid 3px;
+    border-color: lightgoldenrodyellow;
+    padding: 15px;
+    margin: 15px; 
+    flex: 100%;
+    float: initial;
+
+}
+
+.columaboutus {
+
+    border: solid 3px;
+    border-color: lightgoldenrodyellow;
+    padding: 15px;
+    margin: 15px; 
+    flex: 50%;
+    float: initial;
+    text-align: center;
+
 }
 
 .colum1 {
@@ -56,14 +86,24 @@ h1 {
 
 }
 
-/* all fields under are for input box*/
+.footer {
+    border: solid 3px;
+    border-color: lightgoldenrodyellow;
+    padding: 15px;
+    margin: 15px; 
+    text-align: center;
+    
+}
+
+/* all fields under are for input box and button*/
 .box {
     margin: auto;
     width: 50%;
     border: 3px solid black;
     padding: 10px;
-    background-color: white;
   }
+
+
     
-.buttons {text-align: center}
-/* all fields upbove are for input box*/
+
+/* all fields upbove are for input box and button*/
