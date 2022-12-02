@@ -1,8 +1,9 @@
 
 function getDataHelper() {
-   
+    
+    var input = document.getElementById('test').value
     return fetch("http://localhost:3000/car?" + new URLSearchParams({
-        model: 'camry',
+        model: input , //have to add the input here 'camry'
       
 }))
     .then((response) => response.json())
@@ -12,6 +13,7 @@ function getDataHelper() {
 }
 
 function getData(){
+    
     var cardata;
     getDataHelper().then((data)=>{
         cardata = data
@@ -23,6 +25,14 @@ function getData(){
     // newtext.setAttribute('id' , 'output')
    
 }
+
+function onmousehover() {
+    document.getElementById("butn").style.color="red";
+  }
+
+function onmouseoff() {
+    document.getElementById("butn").style.color="DarkSlateGrey";
+  }
 
 // how to make the submit button work properly so its linked with the text box
 // ask about how to do the image stuff
