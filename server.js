@@ -6,7 +6,7 @@ app.use(cors({
     origin: '*'
 }));
 
-const arr = ['camry', 'corolla'];
+const arr = ['camry', 'corolla' , 'supra' , 'yaris' , 'landcruiser'];
 const carDatabase = [
     {'brand':'toyota','model':'camry','year':2012},
     {'brand':'toyota','model':'corolla','year':2020},
