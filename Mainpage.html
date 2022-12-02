@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="draft.css">
+    <link rel="stylesheet" href="database stylesheet.css">
     <script src="client.js"></script>
     <title>Car Database</title>
 </head>
@@ -16,11 +16,14 @@
     <div class="colum1">
 
         <p> Car you want from Database:  
-            <input type="text" class="input" name="Car"> <input type="submit">
+            <input type="text" id="test"  value="" />
+            <br/>
+            <!--<button onclick="getDataHelper()" id="testButton" >Submit Response</button>-->
         </p>  
 
         <img id="image" src="" alt="image not found">
-        <button onclick="getData()">Click for data</button>
+
+        <button id="butn" onmouseover="onmousehover()" onmouseout="onmouseoff()" onclick="getData()">Click for data</button>
         <p id ="output"></p>
     </div>
 
