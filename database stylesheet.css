@@ -1,8 +1,8 @@
-* {
-  font-size: 18px;
-  font-family: 'Times New Roman', Times, serif;
-  background-color: rgb(20, 21, 22);
-  color: white;
+body {
+  
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(320deg, #eb92bf, #ffef78, #63c9b5) ;
 }
 
 #subtitle {
@@ -31,7 +31,7 @@ h1 {
     text-align: center;
     color: red;
     border: solid 3px;
-    border-color: red;
+    border-color: lightgoldenrodyellow;
     padding: 15px;
     margin: 15px; 
 }
@@ -39,7 +39,6 @@ h1 {
 .row {
 
     display: flex; /* without this div the boxes wont be next to each other and just dosent work*/
-    height: 68vh;
 }
 
 .columdatabase {
@@ -50,8 +49,7 @@ h1 {
     margin: 15px; 
     flex: 100%;
     float: initial;
-
-
+    height: 60.75vh;
 }
 
 .columaboutus {
@@ -63,10 +61,10 @@ h1 {
     flex: 50%;
     float: initial;
     text-align: center;
-
+    height: 65vh;
 }
 
-.colum1 {
+.colummain1 {
 
     border: solid 3px;
     border-color: lightgoldenrodyellow;
@@ -74,10 +72,10 @@ h1 {
     margin: 15px; 
     flex: 75%;
     float: left;
-
+    height: 65vh;
 }
 
-.colum2 {
+.colummain2 {
 
     border: solid 3px;
     border-color: lightgoldenrodyellow;
@@ -85,16 +83,16 @@ h1 {
     margin: 15px; 
     flex: 25%;
     float: right;
-
+    height: 65vh;
 }
 
 .footer {
+    
     border: solid 3px;
     border-color: lightgoldenrodyellow;
     padding: 15px;
     margin: 15px; 
     text-align: center;
-    
 }
 
 /* all fields under are for input box and button*/
@@ -104,8 +102,5 @@ h1 {
     border: 3px solid black;
     padding: 10px;
   }
-
-
-    
 
 /* all fields upbove are for input box and button*/
